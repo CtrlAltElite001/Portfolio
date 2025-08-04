@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Junior Software Developer Portfolio - Python, MySQL, Dart | Zetech University | PLP Student">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel Chemiat | Junior Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://yourdomain.com/" />
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Emmanuel Chemiat</div>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://github.com/CtrlAltElite001" target="_blank" rel="noopener">GitHub</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div>
+                <h1>Hi, I'm <span class="highlight">Emmanuel Chemiat</span></h1>
+                <h2>Junior Software Developer</h2>
+                <p>
+                    Diploma in Computer Science at Zetech University<br>
+                    Projected to graduate: <strong>November 2025</strong>.<br>
+                    Currently studying Software Development at <strong>PLP</strong>.
+                </p>
+                <a href="about.html" class="btn">Learn More</a>
+            </div>
+            <img src="Official Picture.jpg" alt="Emmanuel Chemiat" class="profile-img" />
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+                    <h3>MySQL</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="Dart">
+                    <h3>Dart</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Simple Calculator</h3>
+                    <p>Python project for a simple Calculator.</p>
+                    <a href="https://github.com/CtrlAltElite001/Simple-Calculator.git" target="_blank">View on GitHub</a>
+                </div>
+                
+                <!-- Add more projects as needed -->
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <div class="contact-links">
+              <p>
+                <a class="whatsapp-link" href="https://wa.me/254740936575" target="_blank" rel="noopener">
+                  <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp" style="width:20px;vertical-align:middle;margin-right:5px;">
+                  WhatsApp Me
+                </a>
+              </p>
+              <p>
+                <a class="linkedin-link" href="https://www.linkedin.com/in/emmanuel-imani-/" target="_blank" rel="noopener">
+                  <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" style="width:20px;vertical-align:middle;margin-right:5px;">
+                  Connect on LinkedIn
+                </a>
+              </p>
+            </div>
+            <!-- Formspree integration -->
+            <form action="https://formspree.io/f/mvgqbldn" method="POST" id="contactForm">
+                <label for="name">Name*</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message*</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <!-- Honeypot field for spam protection -->
+                <input type="text" name="_gotcha" style="display:none">
+
+                <button type="submit" class="btn">Send Message</button>
+                <p id="form-message"></p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Emmanuel Chemiat. Made with ❤️</p>
+    </footer>
+</body>
+</html>
